@@ -8,22 +8,22 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: beige;
+    background-color: black;
 }
-
 main{
     position: relative;
-    height:100vh;
-    background-color: brown;
+    height: 100vh;
+    background-color:antiquewhite;
 }
 section#celular{
-
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
-
-    height: 700px;
-    width:  500px;
-    background:url(../imagens/celular.png) no-repeat;
+    transform: translate(-50%, -50%);
 }
+
+
+
+
+    
+
