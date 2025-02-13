@@ -22,6 +22,14 @@ section#celular{
     transform: translate(-50%, -50%);
 }
 
+iframe#tela{
+    position: relative;
+    top: 350px;
+    left: 471px;
+    width: 273px;
+    height: 600px;
+}
+
 
 
 
