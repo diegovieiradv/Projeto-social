@@ -13,7 +13,7 @@ html, body{
 main{
     position: relative;
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: rgb(233, 233, 233);
     background-attachment: fixed;
 }
 section#telefone{
