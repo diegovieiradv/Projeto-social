@@ -5,17 +5,22 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 html, body{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.377), rgb(214, 214, 214), rgb(255, 255, 255));
+    background-color: rgb(80, 205, 243);
 }
 
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.377), rgb(214, 214, 214), rgb(255, 255, 255));
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 main{  
     position: relative;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 section#telefone{
@@ -27,8 +32,9 @@ section#telefone{
     height: 628px;
     width: 450px;
     background: url('../imagens/celular.png')no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
+
 iframe#tela{
     position: relative;
     top: 25px;
@@ -37,20 +43,22 @@ iframe#tela{
     height: 540px;
     
 }
+
 section#redes-sociais{
     text-align: right;
 }
-section#redes-sociais img{
+
+section#redes-sociais img {
 width: 50px;
 margin: 10px;
 border-radius: 10px;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.705);
 box-sizing: border-box;
 }
-section#redes-sociais img:hover{
+
+section#redes-sociais img:hover {
 border: 2px solid rgba(206, 206, 206, 0.349);
 transform: scale(1.3) translate(-3px, -3px);
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
-transition: transform .4s,border 1s;
-
+transition: transform .6s border 1s;
 }
